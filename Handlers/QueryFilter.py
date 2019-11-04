@@ -3,12 +3,12 @@ from ReadJson import json_read
 from Helpers.Helpers import filter_by_other_keys, filter_by_status, filer_by_tags
 
 # the base path for the particular directory
-base_dir = r"C:\Users\ChampWk38\Desktop\JSONFilter\JsonStore"
+base_dir = os.getcwd()
 
 # making the paths for the JSON stores
-organization_path = os.path.join(base_dir, 'organizations.json')
-user_path = os.path.join(base_dir, 'users.json')
-tickets_path = os.path.join(base_dir, 'tickets.json')
+organization_path = os.path.join(base_dir, 'JsonStore/organizations.json')
+user_path = os.path.join(base_dir, 'JsonStore/users.json')
+tickets_path = os.path.join(base_dir, 'JsonStore/tickets.json')
 
 # Loading the JSON data as a python dictionary
 user_data_json_array = json_read(user_path)
