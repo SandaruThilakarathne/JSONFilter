@@ -23,6 +23,12 @@ If you do, then skip to step 1
 
 	(when you need to deactivate run command 'deactivate')
 
+## Start Application)
+### 1) Changes Should do
+    Before you start make sure to change the path of dase_dir in QueryFiler.py file according to locatoin of the main directory of your computer.
+    example:
+        base_dir = "C:\Users\ChampWk38\Desktop\jsonfilter"
+    
 ## Overview
 ### 1) Handlers Directory:
      inside this directory theres is a File called QueryFilter.py. It is consist with four functions respectively. All the filtering

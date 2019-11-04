@@ -3,7 +3,10 @@ from ReadJson import json_read
 from Helpers.Helpers import filter_by_other_keys, filter_by_status, filer_by_tags
 
 # the base path for the particular directory
-base_dir = os.getcwd()
+base_dir = r"C:\Users\ChampWk38\Desktop\jsonfilter"
+# print("Here")
+# print(base_dir)
+# exit()
 
 # making the paths for the JSON stores
 organization_path = os.path.join(base_dir, 'JsonStore/organizations.json')
