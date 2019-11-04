@@ -100,6 +100,6 @@ If you do, then skip to step 1
 ### 7) formatter.py
     All the data showing functions are inclued here
 
-### 7) Testing Dir
+### 7) Test Directory
     All test are available here
      
