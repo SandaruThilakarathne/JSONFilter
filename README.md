@@ -23,7 +23,7 @@ If you do, then skip to step 1
 
 	(when you need to deactivate run command 'deactivate')
 
-## Start Application)
+## Start Application
 ### 1) Changes Should do
     Before you start make sure to change the path of dase_dir in QueryFiler.py file according to locatoin of the main directory of your computer.
     example:
@@ -64,7 +64,7 @@ If you do, then skip to step 1
             This function is responsible for filtering JSON object based on other keys like _id, external_id, etc
 
 ### 3) JsonStore Directory
-     All the JSON filed have stored here
+     All the JSON files have stored here
 
 ### 4) Finder.py    
     For get started with the application you have run the Finder.py file.
@@ -98,7 +98,7 @@ If you do, then skip to step 1
     If you ainout is 0 then the program will exit
 
 ### 5) Hub.py
-     Acting as a connnector between the Finder.py file and the other required logical functions
+     Acting as a connector between the Finder.py file and the other required logical functions
 
 ### 6) ReadJson.py
     Helping to read the JSON files for the given path. Once read, it returns a list of dictionaries
